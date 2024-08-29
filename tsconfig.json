@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "jsx": "preserve",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".", // Set the base directory for module resolution
+    "paths": {
+      "*": ["./*"] // Add a generic path mapping for all modules in the src directory
+    }
+  },
+  "include": [
+    "react-env.d.ts",
+    "/*.ts",
+    "/*.tsx",
+    ".react/types/**/*.ts",
+    "src/(component)/(Header)/HeaderMegaMenu.module.css"
+  ]
+}
