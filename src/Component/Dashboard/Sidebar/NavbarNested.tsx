@@ -22,15 +22,14 @@ const mockdata = [
     link: "/dashboard", // Define the link for Dashboard
   },
   {
-    label: "Market news",
+    label: "System Users",
     icon: (props) => <IconNotes {...props} color="rgb(202, 138, 4)" />,
 
     initiallyOpened: true,
     links: [
-      { label: "Overview", link: "/profile" },
-      { label: "Forecasts", link: "/login" },
-      { label: "Outlook", link: "/" },
-      { label: "Real time", link: "/" },
+      { label: "Employee", link: "/profile" },
+      { label: "Student", link: "/login" },
+    
     ],
   },
   {
@@ -45,13 +44,13 @@ const mockdata = [
   },
 
   {
-    label: "Analytics",
+    label: "Finance",
     icon: (props) => (
       <IconPresentationAnalytics {...props} color="rgb(202, 138, 4)" />
     ),
   },
   {
-    label: "Contracts",
+    label: "Attendance",
     icon: (props) => <IconFileAnalytics {...props} color="rgb(202, 138, 4)" />,
     link: "/login",
   },
